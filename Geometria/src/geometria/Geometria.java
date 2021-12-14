@@ -7,13 +7,22 @@ package geometria;
 
 /**
  *
- * @author javier
+ * @author Elena
+ * 14/12/2021
+ * v 1.01
+ */
+/**
+ * Clase donde se implementan los atributos y métodos.
+ * @author alumnado
+ * @version 1.0
+ * @since 14/12/2021
  */
 public class Geometria {
 
     /**
      * @param args the command line arguments
      */
+    //Clase principal del programa
     public static void main(String[] args) 
     {
         //probar clases cálculo áreas figuras geométricas        

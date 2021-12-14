@@ -11,15 +11,20 @@ package geometria;
  */
 public class Triangulo implements FiguraGeometrica
 {
-    private double base;
+    private double base; 
+    //Atributo
     private double altura;
+    //Atributo
     private double areaTriangulo;
+    //Atributo
     
 
     public Triangulo(double base, double altura) 
     {
         this.base = base;
+        //Constructor
         this.altura = altura;
+        //Constructor
     }
 
     public double getBase() 

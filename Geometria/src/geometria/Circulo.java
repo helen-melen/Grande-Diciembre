@@ -7,7 +7,7 @@ package geometria;
 
 /**
  *
- * @author javier
+ * @author ElenaBerdugo
  */
 public class Circulo implements FiguraGeometrica 
 {
@@ -22,16 +22,19 @@ public class Circulo implements FiguraGeometrica
 
     public double getRadio() 
     {
+        //Consultores
         return radio;
     }
 
     public void setRadio(double radio) 
     {
+        //Modificadores
         this.radio = radio;
     }
 
     public double getAreaRadio() 
     {
+        //Consultores
         return areaRadio;
     }
 

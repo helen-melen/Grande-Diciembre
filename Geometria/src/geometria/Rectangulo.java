@@ -7,7 +7,16 @@ package geometria;
 
 /**
  *
- * @author javier
+ * @author Elena
+ * 14/12/2021
+ * v 1.01
+ */
+/**
+ * Clase donde se definen los atributos y métodos para calcular el área de
+ * un rectangulo.
+ * @author alumnado
+ * @version 1.0
+ * @since 14/12/2021
  */
 public class Rectangulo implements FiguraGeometrica
 {

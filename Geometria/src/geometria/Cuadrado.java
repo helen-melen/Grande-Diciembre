@@ -7,7 +7,16 @@ package geometria;
 
 /**
  *
- * @author javier
+ * @author Elena
+ * 14/12/2021
+ * v 1.01
+ */
+/**
+ * Clase donde se implementan los atributos y métodos para calcular el area del
+ * del cuadrado.
+ * @author alumnado
+ * @version 1.0
+ * @since 14/12/2021
  */
 public class Cuadrado implements FiguraGeometrica
 {
@@ -16,16 +25,19 @@ public class Cuadrado implements FiguraGeometrica
 
     public Cuadrado(double lado) 
     {
+        //Método constuctor
         this.lado = lado;
     }
     
     public double getLado() 
     {
+        //Consultor
         return lado;
     }
 
     public void setLado(double lado) 
     {
+        //Modificador
         this.lado = lado;
     }
 
